@@ -3,7 +3,7 @@
 :root {
 	--primary-color: #b333b3;
 	--background-color: #000000;
-	--dark-color: #ffffff;
+	--dark-color: #000000;
 }
 
 html {
@@ -72,7 +72,7 @@ html {
 
 .container-logo h1 a {
 	text-decoration: none;
-	color: #b333b3;;
+	color: #b333b3;
 	font-size: 3rem;
 	text-transform: uppercase;
 	letter-spacing: -1px;
@@ -88,7 +88,7 @@ html {
 	font-size: 3rem;
 	color: var(--primary-color);
 	padding-right: 2.5rem;
-	border-right: 1px solid #e2e2e2;
+	border-right: 1px solid #b333b3;
 }
 
 .container-user .fa-basket-shopping {
@@ -140,7 +140,7 @@ html {
 	content: '';
 	width: 1.5rem;
 	height: 1px;
-	background-color: #fff;
+	background-color: #fafafa;
 	position: absolute;
 	bottom: -3px;
 	left: 50%;
@@ -154,16 +154,16 @@ html {
 }
 
 .menu a:hover {
-	color: #fff;
+	color: #f7f7f7;
 }
 
 .search-form {
 	position: relative;
 	display: flex;
 	align-items: center;
-	border: 2px solid #fff;
+	border: 2px solid #440744;
 	border-radius: 2rem;
-	background-color: #fff;
+	background-color: #ffffff;
 	height: 4.4rem;
 	overflow: hidden;
 }
@@ -175,7 +175,7 @@ html {
 	width: 25rem;
 	font-size: 1.4rem;
 	padding: 0 2rem;
-	color: #868585;
+	color: #000000;
 	cursor: pointer;
 }
 
@@ -195,7 +195,7 @@ html {
 
 .btn-search i {
 	font-size: 2rem;
-	color: #fff;
+	color: #ffffff;
 }
 
 /* ********************************** */
@@ -223,7 +223,7 @@ html {
 }
 
 .content-banner h2 {
-	color: #fff;
+	color: #ffffff;
 	font-size: 3.5rem;
 	font-weight: 500;
 	line-height: 1.2;
@@ -232,7 +232,7 @@ html {
 .content-banner a {
 	margin-top: 2rem;
 	text-decoration: none;
-	color: #fff;
+	color: #ffffff;
 	background-color: var(--primary-color);
 	display: inline-block;
 	padding: 1rem 3rem;
@@ -263,7 +263,7 @@ html {
 	justify-content: center;
 	gap: 1.5rem;
 
-	background-color: #fff;
+	background-color: #ffffff;
 	border-radius: 1rem;
 	padding: 1.5rem 0;
 }
@@ -286,7 +286,7 @@ html {
 }
 
 .feature-content p {
-	color: #9c9a9a;
+	color: #000000;
 	font-weight: 500;
 }
 
@@ -343,7 +343,7 @@ html {
 
 .card-category p {
 	font-size: 2.5rem;
-	color: #fff;
+	color: #ffffff;
 	text-transform: capitalize;
 	position: relative;
 }
@@ -352,7 +352,7 @@ html {
 	content: '';
 	width: 2.5rem;
 	height: 2px;
-	background-color: #fff;
+	background-color: #6b32c9;
 	position: absolute;
 	bottom: -1rem;
 	left: 50%;
@@ -387,8 +387,8 @@ html {
 }
 
 .container-options span {
-	color: #777;
-	background-color: #fff;
+	color: #ffffff;
+	background-color: #b333b3;
 	padding: 0.7rem 3rem;
 	font-size: 1.4rem;
 	text-transform: capitalize;
@@ -398,7 +398,7 @@ html {
 
 .container-options span:hover {
 	background-color: var(--primary-color);
-	color: #fff;
+	color: #ffffff;
 }
 
 .container-options span.active {
@@ -440,7 +440,7 @@ html {
 }
 
 .card-product:hover .discount {
-	background-color: #000;
+	background-color: #000000;
 }
 
 .button-group {
